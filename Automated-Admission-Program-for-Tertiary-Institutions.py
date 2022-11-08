@@ -1,5 +1,5 @@
-#Create an admission program to calculate the aggregate score and tell the student the faculty and
-#department he or she is likely to be admitted to.
+# Here's an admission program that calculates the aggregate score submitted by candidates 
+# and provides them  a list of faculties and departments into which they are likely to gain admission.
 
 #the following dictionary has the available faculties as keys, with a list of their departments as corresponding values
 
@@ -38,7 +38,7 @@ if O_level == "science":
     
     # this function will be called repeatedly to congratulate candidates and display their scores
     def welcome():
-        print("\n Congratulations! You made a total of " + str(aggregate) + " marks")
+        print("\n Congratulations, and thanks for using the Adesdesk admission program software! \n You made a total of " + str(aggregate) + " marks")
         print("which amounts to " + str(percentage) + "%")
         print("You are qualified for admission to the following departments:\n")
     
